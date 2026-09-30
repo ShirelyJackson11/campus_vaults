@@ -1,0 +1,58 @@
+import '../models/learning_material.dart';
+
+const List<LearningMaterial> learningMaterials = [
+  LearningMaterial(
+    id: '1',
+    title: 'Introduction to Programming',
+    courseCode: 'CS101',
+    courseName: 'Introduction to Programming',
+    type: 'PDF',
+    size: '2.4 MB',
+    filePath: 'materials/cs101/introduction_to_programming.pdf',
+  ),
+  LearningMaterial(
+    id: '2',
+    title: 'Database Management Systems',
+    courseCode: 'DB201',
+    courseName: 'Database Management Systems',
+    type: 'PDF',
+    size: '3.1 MB',
+    filePath: 'materials/db201/database_management_systems.pdf',
+  ),
+  LearningMaterial(
+    id: '3',
+    title: 'HTML and CSS Tutorial',
+    courseCode: 'WD301',
+    courseName: 'Web Design and Development',
+    type: 'Video',
+    size: '18.5 MB',
+    filePath: 'materials/wd301/html_css_tutorial.mp4',
+  ),
+  LearningMaterial(
+    id: '4',
+    title: 'Programming Assignment 1',
+    courseCode: 'CS101',
+    courseName: 'Introduction to Programming',
+    type: 'Assignment',
+    size: '1.2 MB',
+    filePath: 'materials/cs101/programming_assignment_1.pdf',
+  ),
+  LearningMaterial(
+    id: '5',
+    title: 'Mathematics for Computing',
+    courseCode: 'MA102',
+    courseName: 'Mathematics for Computing',
+    type: 'PDF',
+    size: '4.6 MB',
+    filePath: 'materials/ma102/mathematics_for_computing.pdf',
+  ),
+  LearningMaterial(
+    id: '6',
+    title: 'Database Tutorial',
+    courseCode: 'DB201',
+    courseName: 'Database Management Systems',
+    type: 'Video',
+    size: '21.3 MB',
+    filePath: 'materials/db201/database_tutorial.mp4',
+  ),
+];
